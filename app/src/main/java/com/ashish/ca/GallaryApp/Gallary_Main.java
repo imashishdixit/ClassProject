@@ -34,7 +34,7 @@ public class Gallary_Main extends AppCompatActivity {
 
 
     }
-    public boolean onCreateOptionMenu(Menu menu){
+    public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater=getMenuInflater();
         inflater.inflate(R.menu.option_menu,menu);
         return true;
@@ -46,6 +46,7 @@ public class Gallary_Main extends AppCompatActivity {
             case R.id.select_from_gallary:
 
                 return true;
+
 
             default:
             return super.onOptionsItemSelected(item);
