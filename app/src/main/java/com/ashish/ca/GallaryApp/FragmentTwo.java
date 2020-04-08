@@ -82,6 +82,7 @@ public class FragmentTwo extends Fragment {
             Drawable d = new BitmapDrawable(getResources(),bitmap);
             iv = root.findViewById(R.id.imageView);
             iv.setImageBitmap(bitmap);
+            onCreate(savedInstanceState);
 
 
         }
