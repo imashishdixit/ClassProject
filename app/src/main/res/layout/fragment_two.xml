@@ -13,6 +13,7 @@
         android:gravity="center"
         >
         <ImageView
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:src="@drawable/place"
             android:scaleType="centerCrop"
